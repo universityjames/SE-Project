@@ -32,20 +32,20 @@
             this.textbox_dashboard = new System.Windows.Forms.TextBox();
             this.searchevents_textbox = new System.Windows.Forms.TextBox();
             this.title_textbox = new System.Windows.Forms.TextBox();
-            this.event_picture = new System.Windows.Forms.PictureBox();
             this.book_textbox = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.event_picture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.event_picture = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.event_picture)).BeginInit();
             this.SuspendLayout();
             // 
             // textbox_dashboard
@@ -64,12 +64,6 @@
             resources.ApplyResources(this.title_textbox, "title_textbox");
             this.title_textbox.Name = "title_textbox";
             this.title_textbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
-            // event_picture
-            // 
-            resources.ApplyResources(this.event_picture, "event_picture");
-            this.event_picture.Name = "event_picture";
-            this.event_picture.TabStop = false;
             // 
             // book_textbox
             // 
@@ -94,12 +88,6 @@
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // textBox2
             // 
@@ -128,6 +116,18 @@
             resources.ApplyResources(this.textBox5, "textBox5");
             this.textBox5.Name = "textBox5";
             // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // event_picture
+            // 
+            resources.ApplyResources(this.event_picture, "event_picture");
+            this.event_picture.Name = "event_picture";
+            this.event_picture.TabStop = false;
+            // 
             // togetherculture_events
             // 
             resources.ApplyResources(this, "$this");
@@ -148,9 +148,9 @@
             this.Controls.Add(this.textbox_dashboard);
             this.Name = "togetherculture_events";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.event_picture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.event_picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,17 +161,17 @@
         private System.Windows.Forms.TextBox textbox_dashboard;
         private System.Windows.Forms.TextBox searchevents_textbox;
         private System.Windows.Forms.TextBox title_textbox;
-        private System.Windows.Forms.PictureBox event_picture;
         private System.Windows.Forms.Button book_textbox;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox event_picture;
     }
 }
 
