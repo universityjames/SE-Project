@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SE_Project
 {
-    public partial class Form3 : Form
+    public partial class Dashboard : Form
     {
-        public Form3()
+        public Dashboard()
         {
             InitializeComponent();
         }

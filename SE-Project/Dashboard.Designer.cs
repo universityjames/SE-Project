@@ -1,6 +1,6 @@
 ﻿namespace SE_Project
 {
-    partial class Form3
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -40,7 +40,7 @@
             // searchevents_textbox
             // 
             this.searchevents_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.searchevents_textbox.Location = new System.Drawing.Point(235, 192);
+            this.searchevents_textbox.Location = new System.Drawing.Point(222, 192);
             this.searchevents_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.searchevents_textbox.Name = "searchevents_textbox";
             this.searchevents_textbox.Size = new System.Drawing.Size(328, 28);
@@ -60,22 +60,24 @@
             "*--------",
             "*------",
             "*----------"});
-            this.listBox1.Location = new System.Drawing.Point(587, 138);
+            this.listBox1.Location = new System.Drawing.Point(587, 144);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(201, 246);
             this.listBox1.TabIndex = 7;
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(587, 110);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(201, 22);
+            this.textBox1.Size = new System.Drawing.Size(201, 28);
             this.textBox1.TabIndex = 8;
             this.textBox1.Text = "Suggested Tags:";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(587, 39);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 51);
@@ -85,6 +87,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(694, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 51);
@@ -94,7 +97,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(291, 242);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(277, 242);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 51);
             this.button3.TabIndex = 13;
@@ -103,7 +107,8 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(413, 242);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(392, 242);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 51);
             this.button4.TabIndex = 14;
