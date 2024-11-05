@@ -169,7 +169,7 @@
     <value>1</value>
   </data>
   <data name="searchevents_textbox.Text" xml:space="preserve">
-    <value>Search events...</value>
+    <value>Search events/modules...</value>
   </data>
   <data name="&gt;&gt;searchevents_textbox.Name" xml:space="preserve">
     <value>searchevents_textbox</value>
@@ -571,7 +571,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Together Culture Events</value>
+    <value>Together Culture Events/Modules</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>togetherculture_events</value>
