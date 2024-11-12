@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,11 +54,11 @@
     <Compile Include="Events.Designer.cs">
       <DependentUpon>Events.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrator Dashboard.cs">
+    <Compile Include="AdministratorDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrator Dashboard.Designer.cs">
-      <DependentUpon>Administrator Dashboard.cs</DependentUpon>
+    <Compile Include="AdministratorDashboard.Designer.cs">
+      <DependentUpon>AdministratorDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -65,27 +66,39 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="RequestList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestList.Designer.cs">
+      <DependentUpon>RequestList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestInfo.Designer.cs">
+      <DependentUpon>RequestInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Events.resx">
       <DependentUpon>Events.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrator Dashboard.resx">
-      <DependentUpon>Administrator Dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="AdministratorDashboard.resx">
+      <DependentUpon>AdministratorDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="RequestInfo.resx">
+      <DependentUpon>RequestInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestList.resx">
+      <DependentUpon>RequestList.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,7 +113,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\64px-9-94702_user-outline-icon-clipart-png-download-profile-icon.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

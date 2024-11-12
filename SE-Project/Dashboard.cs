@@ -51,5 +51,10 @@ namespace SE_Project
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
