@@ -38,7 +38,9 @@
             // 
             // textbox_dashboard
             // 
+            this.textbox_dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
             this.textbox_dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.textbox_dashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
             this.textbox_dashboard.Location = new System.Drawing.Point(13, 13);
             this.textbox_dashboard.Margin = new System.Windows.Forms.Padding(4);
             this.textbox_dashboard.Name = "textbox_dashboard";
@@ -63,7 +65,9 @@
             // 
             // searchevents_textbox
             // 
+            this.searchevents_textbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
             this.searchevents_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.searchevents_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
             this.searchevents_textbox.Location = new System.Drawing.Point(103, 88);
             this.searchevents_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.searchevents_textbox.Name = "searchevents_textbox";
@@ -73,7 +77,10 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
             this.textBox2.Location = new System.Drawing.Point(426, 88);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
@@ -85,7 +92,10 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
             this.textBox3.Location = new System.Drawing.Point(570, 88);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
