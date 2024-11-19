@@ -1,6 +1,6 @@
 ﻿namespace SE_Project
 {
-    partial class Form1
+    partial class SignUp
     {
         /// <summary>
         /// Required designer variable.
