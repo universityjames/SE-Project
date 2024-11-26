@@ -117,10 +117,11 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(246)))), ((int)(((byte)(236)))));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(208, 197);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.button3.Location = new System.Drawing.Point(201, 197);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 41);
+            this.button3.Size = new System.Drawing.Size(79, 41);
             this.button3.TabIndex = 13;
             this.button3.Text = "Events";
             this.button3.UseVisualStyleBackColor = false;
@@ -133,7 +134,7 @@
             this.button4.Location = new System.Drawing.Point(294, 197);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(70, 41);
+            this.button4.Size = new System.Drawing.Size(79, 41);
             this.button4.TabIndex = 14;
             this.button4.Text = "Modules";
             this.button4.UseVisualStyleBackColor = false;

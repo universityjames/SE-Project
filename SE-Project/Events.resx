@@ -181,10 +181,10 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="title_textbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 67</value>
+    <value>43, 67</value>
   </data>
   <data name="title_textbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 24</value>
+    <value>190, 24</value>
   </data>
   <data name="title_textbox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -211,10 +211,10 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="book_textbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 342</value>
+    <value>44, 342</value>
   </data>
   <data name="book_textbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 45</value>
+    <value>191, 45</value>
   </data>
   <data name="book_textbox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -238,13 +238,13 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 223</value>
+    <value>45, 223</value>
   </data>
   <data name="textBox3.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 112</value>
+    <value>190, 112</value>
   </data>
   <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -268,13 +268,13 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 223</value>
+    <value>307, 223</value>
   </data>
   <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 112</value>
+    <value>190, 112</value>
   </data>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -301,10 +301,10 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 342</value>
+    <value>307, 342</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 45</value>
+    <value>190, 45</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -328,10 +328,10 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 67</value>
+    <value>307, 67</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 24</value>
+    <value>190, 24</value>
   </data>
   <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -358,13 +358,13 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 223</value>
+    <value>568, 223</value>
   </data>
   <data name="textBox4.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 112</value>
+    <value>191, 112</value>
   </data>
   <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -391,10 +391,10 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 342</value>
+    <value>568, 342</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 45</value>
+    <value>191, 45</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -418,7 +418,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 96</value>
+    <value>568, 96</value>
   </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 121</value>
@@ -442,10 +442,10 @@
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 67</value>
+    <value>568, 67</value>
   </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 24</value>
+    <value>191, 24</value>
   </data>
   <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -472,7 +472,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 96</value>
+    <value>307, 96</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 121</value>
